@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Website based on Bootstrap</title>
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/font-awesome.min.css">
+	<link rel="stylesheet" href="style/custom.css">
+</head>
+<body>
+	
+	<!-- Navbar -->
+	<nav class="navbar navbar-light navbar-expand-lg">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navContent">
+				<div class="navbar-nav">
+					<a href="#" class="nav-item nav-link active text-warning">Start</a>
+					<a href="#" class="nav-item nav-link">Prices</a>
+					<a href="#" class="nav-item nav-link">Achievement</a>
+					<a href="#" class="nav-item nav-link">Contact</a>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	<!-- Top -->
+	<div class="jumbotron jumbotron-fluid text-white text-center top">
+		<div class="container">
+			<h1 class="text-uppercase top-header">Discover <span class="text-warning">new quality</span> in constructions</h1>
+			<p class="top-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam in nostrum?</p>
+			<button class="btn btn-warning text-white top-button">More</button>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<section class="introduction">
+		<h2 class="text-center text-uppercase introduction-header">Build with us</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona1.png" alt="icon1">
+						<h3 class="introduction-item-header">Innvation</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona2.png" alt="icon2">
+						<h3 class="introduction-item-header">Tradition</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona3.png" alt="icon3">
+						<h3 class="introduction-item-header">Experience</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Opinions -->
+	<section class="testimonial">
+		<div class="container">
+			<div class="text-center text-white testimonial-content mx-auto">
+				<h2 class="text-uppercase testimonial-header">Customer <span class="text-warning">Opinion</span></h2>
+				<blockquote class="blockquote">
+					<p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, obcaecati placeat ut assumenda accusamus sunt iste distinctio quod! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<footer class="blockquote-footer text-white">Queen Mathilde <cite title="Inwestor">Investor</cite></footer>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio -->
+	<section class="portfolio">
+		<div class="portfolio-header">
+			<h2 class="text-center text-uppercase">Our latest projects</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<img class="rounded img-fluid portfolio-img" src="images/inwestycja-1-mod.jpg" alt="Investment1">
+					<span class="text-uppercase page-label text-danger">Investment</span>
+					<h3 class="text-uppercase portfolio-subheader">Sky Tower</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatem eveniet in sint a inventore dolor nulla dolorum repudiandae voluptas commodi minus porro aspernatur, itaque nemo vel quibusdam nobis reiciendis</p>
+					<button class="btn btn-danger portfolio-button">Read more</button>
+				</div>
+				<div class="col-md">
+					<img class="rounded img-fluid portfolio-img" src="images/inwestycja-2-mod.jpg" alt="Investment 2">
+					<span class="text-uppercase page-label text-danger">Investment</span>
+					<h3 class="text-uppercase portfolio-subheader">Residential</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatem eveniet in sint a inventore dolor nulla dolorum repudiandae voluptas commodi minus porro aspernatur, itaque nemo vel quibusdam nobis reiciendis</p>
+					<button class="btn btn-danger portfolio-button">Read more</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact-->
+	<section class="write-to-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="write-to-us-left">
+						<span class="text-uppercase text-success page-label">Have a question?</span>
+						<h2 class="text-uppercase write-to-us-header">Contact with us!</h2>
+						<form action="">
+							<label for="name" class="form-control-label">Name and Surname</label>
+							<input type="text" id="name" class="form-control">
+							<label for="email" class="form-control-label">E-mail</label>
+							<input type="email" id="email" class="form-control">
+							<label for="msg-title" class="form-control-label">Title</label>
+							<input type="text" id="msg-title" class="form-control">
+							<label for="message" class="form-control-label">Message</label>
+							<textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+							<button class="btn btn-success">Send a message</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-8 d-flex">
+					<img class="align-self-end img-fluid" src="images/budowlaniec.jpg" alt="builder">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="text-white site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 footer-first-col">
+					<ul class="list-unstyled">
+						<li>
+							<i class="fa fa-phone text-warning" aria-hidden="true"></i>+32 88-223-111
+						</li>
+						<li>
+							<i class="fa fa-phone text-warning" aria-hidden="true"></i> +32 88-223-111
+						</li>
+						<li>
+							<i class="fa fa-clock-o text-warning" aria-hidden="true"></i>Mon-Fri 8:00-16:00
+						</li>
+						<li>
+							<i class="fa fa-clock-o text-warning" aria-hidden="true"></i>Saturday 8:00-16:00
+						</li>
+						<li>
+							<i class="fa fa-envelope text-warning" aria-hidden="true"></i></i>a.k.przastek@gmail.com
+						</li>
+						<li>
+							<i class="fa fa-envelope text-warning" aria-hidden="true"></i></i>a.k.przastek@gmail.com
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 footer-second-col">
+					<ul class="list-unstyled">
+						<li><span class="text-warning">></span>Why we?</li>
+						<li><span class="text-warning">></span>See our latest projects</li>
+						<li><span class="text-warning">></span>How we care about safety?</li>
+						<li><span class="text-warning">></span>Innovation and technologies</li>
+						<li><span class="text-warning">></span>Selected investors' opinions</li>
+					</ul>
+				</div>
+				<div class="col-md-6 text-center">
+					<img src="images/mapa.jpg" alt="Mapa" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Copyrights -->
+	<section class="text-center text-white bg-warning copyright">
+		<div class="container">
+			&copy; Copyright 2022 Anna Przastek All rights reserved
+			<span class="mt-2 d-block copyright-designed">Designed by Anna Przastek</span>
+		</div>
+	</section>
+
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
